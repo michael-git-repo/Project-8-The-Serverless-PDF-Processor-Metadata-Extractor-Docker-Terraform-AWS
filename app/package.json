@@ -1,0 +1,16 @@
+{
+  "name": "pdf-processor",
+  "version": "1.0.0",
+  "description": "Serverless PDF Metadata Extractor",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/client-s3": "^3.0.0",
+    "@aws-sdk/util-dynamodb": "^3.0.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
